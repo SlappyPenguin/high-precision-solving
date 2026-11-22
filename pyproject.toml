@@ -1,0 +1,10 @@
+[project]
+name = "test-suite"
+version = "1.0.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "open_spiel==2.0.2",
+    "LiteEFG==1.0.0",
+    "numpy",
+    "scipy",
+]
